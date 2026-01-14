@@ -1,6 +1,6 @@
 //! Integration tests for bytecode protection
 
-use aurora_protect::{
+use auroraview_protect::{
     compile_to_bytecode,
     crypto::{decrypt_hybrid, EccAlgorithm, EccKeyPair},
     encrypt_bytecode, BytecodeFile,
